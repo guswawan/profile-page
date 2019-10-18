@@ -6,7 +6,7 @@
 
 	$koneksi = new mysqli($host, $username, $password, $db); //membuat koneksi ke server mysql
 
-	if($koneksi->connect_error) {
+	if($koneksi->connect_error) { //cek koneksi
 		die("Koneksi ke database gagal");
 	} 
 	// else {

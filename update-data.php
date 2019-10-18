@@ -11,7 +11,8 @@
 		$experience = $_POST['years'];
 		$email = $_POST['email'];
 
-		$sql = "UPDATE user SET name = '$name', role = '$role', availability = '$available', age = '$age', years_experience = '$experience', email = '$email' WHERE id = '$id'";
+		//query sql
+		$sql = "UPDATE user SET name = '$name', role = '$role', availability = '$available', age = '$age', years_experience = '$experience', email = '$email' WHERE id = '$id'"; 
 
 		if($koneksi->query($sql) == TRUE) {
 			// This is in the PHP file and sends a Javascript alert to the client
