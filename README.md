@@ -3,3 +3,10 @@
  
 * profile image 
 after clone, make directory assets/images/profile.jpg 
+
+### Profil image
+```
+Clone
+mkdir images/profile.jpg
+```
+
