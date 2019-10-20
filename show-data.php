@@ -4,7 +4,7 @@
 	$sql = "SELECT * FROM user";
 	$result = $koneksi->query($sql);
 
-	foreach ($result as $result) {
+	foreach ($result as $result) { //perulangan foreach
 		# code...
 		$id = $result["id"];
 		$name = $result["name"];

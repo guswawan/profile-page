@@ -1,7 +1,7 @@
 <?php
 	include "koneksi.php";
 
-	if(isset($_POST['submit'])) {
+	if(isset($_POST['submit'])) { //validasi set variable di form
 		$id = $_POST['id_user'];
 		$name = $_POST['name'];
 		$role = $_POST['role'];
