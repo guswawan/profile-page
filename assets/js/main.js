@@ -2,8 +2,9 @@ var formMenu = document.getElementById("input-form");
 formMenu.style.display = "none";
 
 
+//funsi edit form
 function editForm() {
-if (formMenu.style.display === "none") {
+if (formMenu.style.display === "none") { //sembunyikan input-form/modal
 	formMenu.style.display = "block"
 } else {
 	formMenu.style.display = "none"
@@ -33,6 +34,7 @@ if (formMenu.style.display === "none") {
 }
 
 
+//funsi submit form
 function submitForm() {
 	formMenu.style.display = "none";
 	var name = document.getElementById("inName").value;
@@ -57,16 +59,16 @@ function submitForm() {
 	document.getElementById("viEmail").innerHTML = email;
 }
 
-
+// funsi show menu
 function showMenu() {
-var menu = document.getElementById("menu");
-var box = document.getElementById("box-profile");
+	var menu = document.getElementById("menu");
+	var box = document.getElementById("box-profile");
 
-if (menu.style.display === "block") {
-	menu.style.display = "none";
-	box.style.paddingTop = "0px";
-} else {
-	menu.style.display = "block";
-	bo.style.paddingTop = "125px";
-}
+	if (menu.style.display === "block") {
+		menu.style.display = "none";
+		box.style.paddingTop = "0px";
+	} else {
+		menu.style.display = "block";
+		bo.style.paddingTop = "125px";
+	}
 }

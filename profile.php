@@ -7,11 +7,16 @@
 <html>
 <head>
 	<title>Profil Saya</title>
+
+	<!-- //untuk responsive -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- //link ke file css -->
 	<link rel="stylesheet" type="text/css" href="assets/css/StyleSheet.css">
 </head>
 <body>
-	<!-- navbar -->
+
+	<!-- //navbar -->
 	<nav>	
 		<div class="menu-mobile"> <!-- untuk navbar mobile -->
 			 <a href="#">Menu</a>
@@ -25,7 +30,7 @@
 		</ul>
 	</nav>
 
-	<!-- box profile -->
+	<!-- //box profile -->
 	<section id="box-profile">
 		<div class="img-profile">
 			<div class="photo" style="background-image: url(assets/images/profile.jpg);"></div>
@@ -61,7 +66,7 @@
 		</div>
 	</section>
 
-	<!-- box-input form -->
+	<!-- //box-input form -->
 	<section id="input-form">
 		<form method="POST" action="<?php echo $_SERVER['PHP_SELF']; ?>">
 			<label>

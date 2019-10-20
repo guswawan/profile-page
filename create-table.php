@@ -1,6 +1,7 @@
 <?php
 	include "koneksi.php";
 
+	//sql query create table
 	$sql = "CREATE TABLE user(
 		id int PRIMARY KEY,
 		name varchar(30),
