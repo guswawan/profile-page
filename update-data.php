@@ -14,7 +14,7 @@
 		//query sql
 		$sql = "UPDATE user SET name = '$name', role = '$role', availability = '$available', age = '$age', years_experience = '$experience', email = '$email' WHERE id = '$id'"; 
 
-		if($koneksi->query($sql) == TRUE) {
+		if($koneksi->query($sql) == TRUE) { //variabel koneksi cek dengan query variabel  sql
 			// This is in the PHP file and sends a Javascript alert to the client
 			$message = "Update data berhasil";
 			echo "<script type='text/javascript'>alert('$message');</script>";
