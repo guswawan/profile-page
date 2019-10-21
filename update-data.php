@@ -11,6 +11,7 @@
 		$experience = $_POST['years'];
 		$email = $_POST['email'];
 
+
 		//query sql
 		$sql = "UPDATE user SET name = '$name', role = '$role', availability = '$available', age = '$age', years_experience = '$experience', email = '$email' WHERE id = '$id'"; 
 

@@ -3,7 +3,7 @@
 
 	$sql = "INSERT INTO user
 	(
-		id, name, role, availability, age, location, years_experience, email
+		id, name, role, availability, age, location, years_experience, email, pp
 	) VALUE
 	(
 		'1',
@@ -13,9 +13,10 @@
 		'12',
 		'DI Yogyakarta',
 		'3',
-		'grindmatrik@gmail.com'
+		'grindmatrik@gmail.com',
+		'null'
 
-	)"; //masukkan data ke tabel user
+	)"; //memasukkan data ke tabel user
 
 	if($koneksi->query($sql) == TRUE) {
 		echo "Insert data berhasil";

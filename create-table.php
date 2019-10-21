@@ -10,7 +10,8 @@
 		age int,
 		location varchar(30),
 		years_experience varchar(30),
-		email varchar(30)
+		email varchar(30),
+		pp varchar (50) 
 	)";
 
 	if($koneksi->query($sql) == TRUE) {

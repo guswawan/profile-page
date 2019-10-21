@@ -105,6 +105,10 @@
 				<input id="inEmail" type="email" name="email">
 			</div>
 			<div class="form">
+				<label>Photo Profile</label>
+				<input id="inPp" type="file" name="pp">
+			</div>
+			<div class="form">
 				<input onclick="" type="submit" name="submit" value="submit" class="bg-blue">
 			</div>
 		</form>
